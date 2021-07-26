@@ -30,7 +30,7 @@ import {
 
             case USER_LOADED : 
             
-            return {...state ,  isAuthenticated : true, isloading : false , user: action.payload }
+            return {...state ,  isAuthenticated : true, isloading : false , user: action.payload   }
 
             
 
